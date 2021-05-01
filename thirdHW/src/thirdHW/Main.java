@@ -4,13 +4,13 @@ public class Main {
 
 	public static void main(String[] args) {
 		Instructor instructor = new Instructor();
-		instructor.name = "Engin Demiroð";
+		instructor.firstName = "Engin Demiroð";
 
 		UserManager userManager = new UserManager();
 		userManager.add(new InstructorManager());
 
 		Student student = new Student();
-		student.name = "Abdullah Umut Öztürk";
+		student.firstName = "Abdullah Umut Öztürk";
 		userManager.add(new StudentManager());
 	}
 
